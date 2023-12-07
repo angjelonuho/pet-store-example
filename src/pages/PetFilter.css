@@ -1,0 +1,21 @@
+.categories {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  gap: 1rem;
+  width: 100%;
+}
+
+.pet-results {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+}
+
+
+
+@media (max-width: 767px) {
+  .categories{
+    overflow-x: auto;
+  }
+}

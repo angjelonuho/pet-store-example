@@ -1,0 +1,20 @@
+:root {
+  --app-color-red: #BF2C23;
+  --app-color-yellow: #F8Cf47;
+  --app-color-darkyellow: #E0B833;
+  --app-color-blue: #2B6DB1;
+  --app-color-darkblue: #285DAB;
+  --app-color-lightgray: #F0F0F0;
+  --app-color-gray: #DDDDDD;
+  --app-color-darkgray: #666666;
+  --app-color-white: #FFFFFF;
+  --app-color-black: #111111;
+}
+
+#root {
+  display: grid;
+}
+
+body {
+  margin: 0;
+}
